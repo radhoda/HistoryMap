@@ -15,3 +15,9 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+function Body({ children }) {
+  return (
+      <html lang="en"></html>
+  )
+}
